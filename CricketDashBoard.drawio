@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T03:50:44.759Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" etag="336OOw6Qafh_RduymlJt" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T03:52:34.202Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" etag="QIVIQPDUDr1dHpwBB-7f" version="23.1.1" type="github">
   <diagram name="Page-1" id="57v3BACR69djvuSTHHto">
-    <mxGraphModel dx="2385" dy="1353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1908" dy="1082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,13 +32,13 @@
           <mxGeometry x="240" y="460" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-12" value="Match" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="450" y="210" width="310" height="290" as="geometry" />
+          <mxGeometry x="450" y="210" width="310" height="310" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-13" value="&lt;div align=&quot;left&quot;&gt;&lt;div&gt;- matchName: String&lt;/div&gt;&lt;div&gt;- dashboard: Dashboard&lt;br&gt;&lt;/div&gt;- teamA: Team&lt;br&gt;- teamB: Team&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- numberPlayer: int&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- numberOfOver: int&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- currentBattingTeam: Team&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- previousBattingTeam: Team&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- matchStatus: &amp;lt;&amp;lt;ENUM&amp;gt;&amp;gt; matchStatus &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- WICKET = &quot;W&quot;;&lt;br&gt;- WIDE = &quot;Wd&quot;;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="Vpk79EZBwUhoFVZkjS05-12">
           <mxGeometry y="29" width="310" height="181" as="geometry" />
         </mxCell>
-        <mxCell id="Vpk79EZBwUhoFVZkjS05-14" value="&lt;div&gt;Match(name: String,team 1,team 2)&lt;/div&gt;&lt;div&gt;+ startMatch(): string&lt;/div&gt;&lt;div&gt;-&amp;nbsp; startBatting(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ ACTIONS(); void&lt;/div&gt;&lt;div&gt;+ switchTeam():&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="Vpk79EZBwUhoFVZkjS05-12">
-          <mxGeometry y="210" width="310" height="80" as="geometry" />
+        <mxCell id="Vpk79EZBwUhoFVZkjS05-14" value="&lt;div&gt;Match(name: String,team 1,team 2)&lt;/div&gt;&lt;div&gt;+ startMatch(): string&lt;/div&gt;&lt;div&gt;-&amp;nbsp; startBatting(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ updateScore(): void&lt;/div&gt;&lt;div&gt;+ switchTeam(): void&lt;/div&gt;&lt;div&gt;+ displayResult: void&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="Vpk79EZBwUhoFVZkjS05-12">
+          <mxGeometry y="210" width="310" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-16" value="Team" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="810" y="210" width="250" height="280" as="geometry" />
