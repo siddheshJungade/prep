@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T03:11:34.603Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" etag="0wC-7tnvwtPgGmBalxPB" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T03:19:03.533Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" etag="UQJnACisb8O6gJ__cRhn" version="23.1.1" type="github">
   <diagram name="Page-1" id="57v3BACR69djvuSTHHto">
-    <mxGraphModel dx="954" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1908" dy="1082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
           <mxGeometry x="240" y="460" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-12" value="Match" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="450" y="210" width="310" height="310" as="geometry" />
+          <mxGeometry x="540" y="200" width="310" height="310" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-13" value="&lt;div align=&quot;left&quot;&gt;&lt;div&gt;- matchName: String&lt;/div&gt;&lt;div&gt;- dashboard: Dashboard&lt;br&gt;&lt;/div&gt;- teamA: Team&lt;br&gt;- teamB: Team&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- numberPlayer: int&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- numberOfOver: int&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- currentBattingTeam: Team&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- previousBattingTeam: Team&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- matchStatus: &amp;lt;&amp;lt;ENUM&amp;gt;&amp;gt; matchStatus &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- WICKET = &quot;W&quot;;&lt;br&gt;- WIDE = &quot;Wd&quot;;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="Vpk79EZBwUhoFVZkjS05-12" vertex="1">
           <mxGeometry y="29" width="310" height="181" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry y="210" width="310" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-16" value="Team" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="811" y="210" width="280" height="310" as="geometry" />
+          <mxGeometry x="930" y="190" width="280" height="310" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-17" value="&lt;div align=&quot;left&quot;&gt;&lt;div&gt;- teamName: String &lt;br&gt;&lt;/div&gt;- players: Player[]&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- totalScore: int&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- totalWickets: int&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- currentBatman: Player&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- strikeBatsman: Player &lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="Vpk79EZBwUhoFVZkjS05-16" vertex="1">
           <mxGeometry y="29" width="280" height="121" as="geometry" />
@@ -50,7 +50,7 @@
           <mxGeometry y="150" width="280" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-20" value="Player" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1110" y="210" width="300" height="410" as="geometry" />
+          <mxGeometry x="1310" y="110" width="300" height="410" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-21" value="&lt;div align=&quot;left&quot;&gt;&lt;div&gt;- playerName: String &lt;br&gt;&lt;/div&gt;- playerRuns: int&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- numberOfBallFaced: int&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- playerStatus: &amp;lt;&amp;lt;ENUM&amp;gt;&amp;gt; playerStatus;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- wicketTaken: int&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- noOf4sHit: int&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- noOf6sHit: int&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="Vpk79EZBwUhoFVZkjS05-20" vertex="1">
           <mxGeometry y="29" width="300" height="111" as="geometry" />
@@ -71,13 +71,37 @@
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-26" value="Dashboard" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="750" y="560" width="340" height="229" as="geometry" />
+          <mxGeometry x="880" y="580" width="340" height="229" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-28" value="&lt;div&gt;const FINAL_SCORE: string = &quot;final score&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;const NO_OF_4s:string = &quot;4s&quot;&lt;/div&gt;&lt;div&gt;const NO_OF_6s: string = &quot;6s&quot;&lt;/div&gt;&lt;div&gt;const PLAYER_NAME = &quot;player :&quot; : strings&lt;/div&gt;&lt;div&gt;const BALLS = &quot;BALLS&quot;: string&lt;/div&gt;&lt;div&gt;id: string&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="Vpk79EZBwUhoFVZkjS05-26" vertex="1">
           <mxGeometry y="29" width="340" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-30" value="&lt;div&gt;Dashboard()&lt;/div&gt;&lt;div&gt;+ displayScore(currentTeam)&lt;/div&gt;&lt;div&gt;- displayHeaders(currentTeam team);&lt;/div&gt;&lt;div&gt;- displayTeamStat(currentTeam team);&lt;/div&gt;&lt;div&gt;- displayTeamFinalScore();&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="Vpk79EZBwUhoFVZkjS05-26" vertex="1">
           <mxGeometry y="129" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="frGnpFfimCI6W40b5ZP9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vpk79EZBwUhoFVZkjS05-11" target="Vpk79EZBwUhoFVZkjS05-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="frGnpFfimCI6W40b5ZP9-3" value="has a" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="420" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="frGnpFfimCI6W40b5ZP9-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;shape=arrow;" edge="1" parent="1" source="Vpk79EZBwUhoFVZkjS05-13" target="Vpk79EZBwUhoFVZkjS05-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="frGnpFfimCI6W40b5ZP9-5" value="has a" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="865" y="258" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="frGnpFfimCI6W40b5ZP9-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="Vpk79EZBwUhoFVZkjS05-17" target="Vpk79EZBwUhoFVZkjS05-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="frGnpFfimCI6W40b5ZP9-7" value="has a" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="238" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="frGnpFfimCI6W40b5ZP9-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="Vpk79EZBwUhoFVZkjS05-14" target="Vpk79EZBwUhoFVZkjS05-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="frGnpFfimCI6W40b5ZP9-9" value="&lt;div&gt;has a&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="895" y="518" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
