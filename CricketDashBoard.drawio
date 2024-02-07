@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T03:52:34.202Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" etag="QIVIQPDUDr1dHpwBB-7f" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T01:41:44.967Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" etag="2G5DYcYgAuX28ew51Aa7" version="23.1.1" type="github">
   <diagram name="Page-1" id="57v3BACR69djvuSTHHto">
-    <mxGraphModel dx="1908" dy="1082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="909" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
         <mxCell id="Vpk79EZBwUhoFVZkjS05-17" value="&lt;div align=&quot;left&quot;&gt;&lt;div&gt;- teamName: String &lt;br&gt;&lt;/div&gt;- players: Player[]&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- totalScore: int&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- totalWickets: int&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- currentBatman: Player&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- currentStrick: Player &lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="Vpk79EZBwUhoFVZkjS05-16">
           <mxGeometry y="29" width="250" height="121" as="geometry" />
         </mxCell>
-        <mxCell id="Vpk79EZBwUhoFVZkjS05-18" value="&lt;div&gt;Team(name: String, players [] Team)&lt;/div&gt;&lt;div&gt;+ addToScore(run: int):&lt;/div&gt;&lt;div&gt;- changePlayer();&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="Vpk79EZBwUhoFVZkjS05-16">
+        <mxCell id="Vpk79EZBwUhoFVZkjS05-18" value="&lt;div&gt;Team(name: String, players [] Team)&lt;/div&gt;&lt;div&gt;+ addToScore(run: int):&lt;/div&gt;&lt;div&gt;-&amp;nbsp; changePlayer();&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="Vpk79EZBwUhoFVZkjS05-16">
           <mxGeometry y="150" width="250" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-20" value="Player" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
@@ -55,17 +55,20 @@
         <mxCell id="Vpk79EZBwUhoFVZkjS05-21" value="&lt;div align=&quot;left&quot;&gt;&lt;div&gt;- playerName: String &lt;br&gt;&lt;/div&gt;- playerRuns: int&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- numberOfBallFaced: int&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- playerStatus: &amp;lt;&amp;lt;ENUM&amp;gt;&amp;gt; playerStatus;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="Vpk79EZBwUhoFVZkjS05-20">
           <mxGeometry y="29" width="270" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="Vpk79EZBwUhoFVZkjS05-22" value="&lt;div&gt;Player(name: String,playerStatus)&lt;/div&gt;&lt;div&gt;addToPlayerRuns(run);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="Vpk79EZBwUhoFVZkjS05-20">
+        <mxCell id="Vpk79EZBwUhoFVZkjS05-22" value="&lt;div&gt;Player(name: String,playerStatus)&lt;/div&gt;&lt;div&gt;addPlayerScore(run);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="Vpk79EZBwUhoFVZkjS05-20">
           <mxGeometry y="110" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-23" value="&lt;div&gt;&amp;lt;&amp;lt;Enum&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;playerStatus&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="40" width="140" height="90" as="geometry" />
+          <mxGeometry x="710" y="40" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-24" value="IN_GAME" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vpk79EZBwUhoFVZkjS05-23">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-25" value="EXTRA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vpk79EZBwUhoFVZkjS05-23">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vpk79EZBwUhoFVZkjS05-32" value="WICKET_FALLON" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vpk79EZBwUhoFVZkjS05-23">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vpk79EZBwUhoFVZkjS05-26" value="Dashboard" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="750" y="560" width="340" height="229" as="geometry" />
